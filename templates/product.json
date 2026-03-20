@@ -87,6 +87,46 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "accordion_row_RLDykU": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Ingredients",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_VDiNXy": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.{{ closest.product.metafields.custom.benefits | metafield_tag }}</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_VDiNXy"
+                  ]
+                },
                 "accordion_row_7Cw8gH": {
                   "type": "_accordion-row",
                   "settings": {
@@ -206,6 +246,7 @@
                 }
               },
               "block_order": [
+                "accordion_row_RLDykU",
                 "accordion_row_7Cw8gH",
                 "accordion_row_wkVjUe",
                 "accordion_row_cKkQGJ"
